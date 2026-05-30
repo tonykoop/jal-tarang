@@ -1,7 +1,7 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 # Jal Tarang
 
-Status: L1 concept packet
+Status: L2 concept / pending-measurement packet
 
 Authority: this repository is a V5 concept study for private review. It is not
 fabrication authority, not a measured traditional tuning packet, and not a
@@ -20,17 +20,21 @@ packet knows the final pitches or water levels.
 
 - [Design study](design.md)
 - [Estimated BOM](bom.csv)
+- [Candidate cut-list](cut-list.csv)
 - [Decision record](decision-record.md)
 - [Visual output register](visual-output-register.csv)
 - [CAD/MCP provenance log](cad/mcp-session-log.md)
 
-## Known L1 Boundaries
+## Known L2 Boundaries
 
 - No CAD, DXF, measured drawing, or acoustic simulation exists here.
 - No bowl dimensions, water volumes, pitch frequencies, tuning table, scale,
   mallet hardness, or support geometry is claimed.
-- Any future L2 packet must start with reference research, bowl inventory,
-  water-volume measurement, pitch logging, and repeatability tests.
+- The L2 packet names subsystems, candidate part classes, and measurement
+  gates, but it does not authorize fabrication or performance setup.
+- Any future promotion must start with reference research, bowl inventory,
+  water-volume measurement, pitch logging, repeatability tests, and player
+  feedback.
 
 ## License
 
