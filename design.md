@@ -2,7 +2,7 @@
 ---
 instrument: Jal Tarang
 family: idiophones / tuned vessel percussion
-readiness: L1 concept packet
+readiness: L2 concept / pending-measurement packet
 authority: concept study; pending measurement
 ---
 
@@ -62,6 +62,36 @@ the setup can be reproduced.
 
 Only after that should the packet define a support tray, bowl order, labeling,
 water-measurement kit, or performance layout.
+
+## L2 Subsystem Plan
+
+- Bowl inventory: every bowl needs a temporary ID, material note, condition
+  note, dry response observation, and handling risk note before tuning work.
+- Fill workflow: water should be added, removed, and logged with the same
+  repeatable method so later tests can separate bowl behavior from setup error.
+- Pitch logging: tuner or recording evidence should be tied to bowl ID and fill
+  state, while all pitch values remain pending measurement.
+- Mallet testing: strike tools should be compared by attack clarity, rim safety,
+  player feel, and noise, not promoted from visual similarity.
+- Support and staging: tray or cradle concepts should be tested for stability,
+  resonance, drainage, labeling, and safe movement.
+- Session drift: evaporation, handling, splashing, and refill/reset behavior
+  should be logged before any performance-ready claim.
+
+## Review Tables To Add Later
+
+The next measured packet should add separate tables for bowl inventory,
+fill/pitch observations, mallet trials, support behavior, and session drift.
+Those tables are not included here because the values do not yet exist.
+
+## Failure Modes
+
+- Bowls ring poorly after water is added or after moving to a different support.
+- Fill state cannot be repeated after draining and refilling.
+- Labels imply final tuning before measured pitch evidence exists.
+- Mallets chip, mute, or overdrive a bowl rim.
+- Bowl support is stable but acoustically choking, or resonant but unsafe.
+- Evaporation or splashing changes the setup during a session.
 
 ## Non-Claims
 
