@@ -53,7 +53,7 @@ jalTarangSensitivity[waterMassRatio_, waterCouplingCoefficient_] :=
     coefficient -> waterCouplingCoefficient
     };
 
-Manipulate[
+jalTarangExplorer = Manipulate[
  Module[
   {
    ratio = jalTarangFrequencyRatio[waterMassRatio, waterCouplingCoefficient],
