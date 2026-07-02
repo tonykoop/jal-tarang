@@ -1,0 +1,7 @@
+check_id,area,target,method,tolerance,measured,result,action
+VAL-001,Bowl inventory,"every candidate bowl has temporary ID, material note, condition note, dry-response observation","visual/tactile inventory review (design.md L2 Subsystem Plan)",measurement_required,TBD,TBD,"Reject or re-ID bowls with unclear condition before tuning work"
+VAL-002,Fill repeatability,"same measured fill volume reproduces same pitch after drain/refill","repeatable fill/drain workflow + tuner log",measurement_required,TBD,TBD,"Revise fill-measurement method or vessel if not repeatable"
+VAL-003,Pitch-vs-fill response,"bowl pitch response to water increments logged per bowl ID","controlled water increments + tuner/recording log (jal-tarang-wolfram-model.wl estimate curve as reference only)",measurement_required,TBD,TBD,"Discard bowl or revise fill increments if response is erratic"
+VAL-004,Mallet trial,"mallet gives clear attack without chipping/muting/overdriving rim","comparative strike test across mallet candidates",measurement_required,TBD,TBD,"Reject mallet family failing rim-safety or clarity criteria"
+VAL-005,Support stability/resonance,"support tray/cradle holds bowls stable without choking resonance","stability + listening test",measurement_required,TBD,TBD,"Revise support geometry or material"
+VAL-006,Session drift,"evaporation/handling drift over a session session stays within a repeatable margin","before/after session pitch log",measurement_required,TBD,TBD,"Add refill/reset step to session workflow if drift is unacceptable"
