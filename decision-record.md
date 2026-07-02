@@ -55,3 +55,25 @@
   pitch-versus-water data and validated support behavior.
 - L4 requires physical setup logs, repeatability tests, player feedback, and
   documented tuning drift over time.
+
+## V5 Refresh Pass (2026-07-01)
+
+- Normalized the README status line to the approved V5 value
+  `L2 V5 build-packet candidate`, keeping the original
+  `L2 concept / pending-measurement packet` caveat prose alongside it — no
+  promotion of readiness level.
+- Added the missing baseline files (`risks.md`, `sourcing.csv`,
+  `validation.csv`, `drawing-brief.md`) and `evolution/` Stage 0 intake,
+  scaffolded honestly with TBD/measurement_required values — no new bowl
+  dimensions, counts, or pitch data were introduced.
+- **Deliberately did NOT author a `cad/*.scad` master this pass.** This
+  repo's own Decisions (above) explicitly reject creating CAD before bowl
+  inventory/geometry is measured, and no bowl count, diameter, wall profile,
+  or water volume exists anywhere in this packet to parameterize a model
+  from — the only numeric bowl-related value in the repo is
+  `bowlCountEstimate = 12` in `wolfram/jal-tarang-wolfram-model.wl`, itself
+  labeled "estimate — pending measurement, not fabrication authority." Adding
+  geometry (even an "envelope") would require inventing a bowl diameter that
+  does not exist anywhere in this packet, which conflicts with the V5 honesty
+  rule against inventing dimensions. Escalated to the orchestrator for
+  confirmation rather than fabricating a placeholder dimension.

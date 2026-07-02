@@ -1,0 +1,9 @@
+item,required_spec,search_terms,supplier_candidates,date_checked,unit_price_usd,lead_time,substitution_risk,notes
+Bowls (bom.csv BOM-001),"porcelain, ceramic, glass, or metal — count/diameter TBD","jal tarang bowls; tuned water bowls; ceramic mixing bowl set","kitchenware suppliers; ceramics suppliers; musical-bowl makers",TBD,TBD,TBD,High,"No bowl count/material decision yet — decision-record.md keeps material branches open until measured"
+Water measuring vessel or scale (BOM-003),"repeatable fill/measurement tool","graduated cylinder; kitchen scale; measuring jug","lab/kitchen suppliers",TBD,TBD,TBD,Low,"Needed for repeatable fill logging"
+Tuner or pitch-logging setup (BOM-004),"chromatic tuner or recording setup for pitch-vs-fill logging","chromatic tuner; pitch tracking app","music electronics suppliers",TBD,TBD,TBD,Low,"No pitch targets are claimed at L2"
+Mallets (BOM-005 / BOM-014),"light striking mallets; rim-safe trial set","light percussion mallets; rubber mallet set","percussion suppliers",TBD,TBD,TBD,Medium,"Material/hardness require listening + rim-safety tests before selection"
+Support tray/cradle (BOM-006 / BOM-015),"stable, resonance-safe bowl support","bowl stand; instrument cradle; padded tray","fixture/hardware suppliers",TBD,TBD,TBD,Medium,"No layout or dimensions released yet"
+Labeling kit (BOM-007),"temporary bowl ID and water-level labels","waterproof labels; grease pencil","office/lab suppliers",TBD,TBD,TBD,Low,"Must avoid implying final tuning authority"
+Drain/refill kit (BOM-008),"drain and refill tools for repeatability testing","siphon; small pump; turkey baster","hardware suppliers",TBD,TBD,TBD,Low,"Needed for session-reset repeatability tests"
+Spill-control kit (BOM-016),"water spill and bowl-handling safety kit","spill mat; absorbent towels; non-slip mat","safety suppliers",TBD,TBD,TBD,Low,"Wet setup safety item"

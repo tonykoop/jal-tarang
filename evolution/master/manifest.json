@@ -1,0 +1,9 @@
+{
+  "product": "jal-tarang",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [],
+  "notes": "No OpenSCAD/native CAD master exists or was authored this pass — no bowl count, diameter, or geometry exists anywhere in this packet to parameterize a model from (design.md 'Non-Claims'; decision-record.md 'Decisions' explicitly defer CAD). The only computational source is wolfram/jal-tarang-wolfram-model.wl (sha256: 7afeedbce4ab64060ec00a03c587cd01fc93bd902b0eaa365a19f2b69b3c3774), an Estimate-only symbolic water-loading model, reference_only, not fabrication authority. Gate A (Alpha workspace compile) not yet run and not applicable until measured bowl inventory exists."
+}
